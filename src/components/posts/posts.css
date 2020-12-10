@@ -1,0 +1,12 @@
+.posts {
+  width: 65%;
+  background: white;
+  margin: 15px 0;
+}
+
+@media (max-width: 600px) {
+  .posts {
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+}

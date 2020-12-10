@@ -1,0 +1,170 @@
+.post {
+  margin-bottom: 15px;
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+}
+
+.post__header {
+  display: flex;
+  align-items: center;
+  background: var(--white);
+  padding: 10px;
+}
+
+.post__header-avator {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f83a63;
+  text-transform: uppercase;
+}
+.post__header-name {
+  margin-left: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.post__header-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.post__header-location {
+  color: darkgray;
+  font-size: 12px;
+  margin-left: 9px;
+}
+
+.post__header-dots {
+  margin-left: auto;
+  font-size: 120%;
+  cursor: pointer;
+}
+
+.dropdown {
+  display: block;
+  position: absolute;
+  background-color: white;
+  width: 100px;
+  z-index: 1;
+  margin-left: 490px;
+  margin-top: 64px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown a {
+  color: #242526;
+  margin: 0 10px;
+  text-decoration: none;
+  display: block;
+  margin-top: 3px;
+  font-size: 150%;
+}
+
+@media (max-width: 600px) {
+  .dropdown.block {
+    margin-left: 235px;
+    margin-top: 64px;
+  }
+}
+
+.initial {
+  display: none;
+}
+
+.post__img {
+  width: 100%;
+  overflow: hidden;
+  border-top: 1px solid lightgray;
+
+  border-collapse: collapse;
+}
+.post__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.threeIcons {
+  display: flex;
+  align-items: center;
+  margin: 5px 5px;
+  padding: 10px 10px 0 10px;
+  margin-top: 10px !important;
+}
+
+.threeIcons a {
+  text-decoration: none;
+}
+
+.reactButton {
+  font-size: 200%;
+  margin: 0 8px;
+  color: black;
+}
+
+.like img {
+  height: 24px;
+}
+
+.likes {
+  margin-left: 25px;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.comment {
+  padding: 20px;
+  border: none;
+  outline: none;
+  border-top: 1px solid lightgray;
+}
+
+.post-button {
+  font-size: 110% !important;
+  color: #0095f6 !important;
+  border-top: 1px solid lightgray !important;
+  margin-right: 6px;
+}
+
+.caption-all,
+.viewThis {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  margin-bottom: 5px;
+}
+
+.caption-username {
+  font-size: 15px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.caption {
+  font-size: 15px;
+}
+
+.view {
+  margin-left: 25px;
+  color: lightslategrey;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.comments,
+.addView {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .post {
+    margin-left: 0;
+  }
+}

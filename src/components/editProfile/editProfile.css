@@ -1,0 +1,55 @@
+.edit {
+  width: 65%;
+  margin: 15px auto;
+  background: var(--white);
+  padding: 10px;
+  border: 1px solid #efefef;
+  border-radius: 3px;
+}
+
+.image {
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.inputs input {
+  width: 100%;
+  min-height: 40px;
+  padding: 0 5px;
+  font-size: 15px;
+}
+
+.inputs input::placeholder {
+  font-size: 15px;
+}
+
+.update {
+  padding: 1rem 0 1rem 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  width: 100%;
+  background: #0095f6;
+  color: white;
+  margin: 2rem 0;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+input[type="file"] {
+  margin: 10px 20px 0 20px;
+}
+
+@media (max-width: 600px) {
+  .edit {
+    width: 100%;
+  }
+}

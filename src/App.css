@@ -1,0 +1,13 @@
+.container {
+    width: 100%;
+    padding-top: 30px;
+    overflow: hidden;
+  }
+
+  @media(max-width:600px){
+    .container{
+      padding: 5px;
+      padding-right: 0;
+
+    }
+  }
