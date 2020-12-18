@@ -34,7 +34,7 @@ const Posts = ({ user }) => {
           noLikes={post.noLikes}
           postUserId={post.uid}
           location={post.location}
-          photoUrl={post.photoURL}
+          photoUrl={post.photoUrl}
         />
       ))}
     </div>
